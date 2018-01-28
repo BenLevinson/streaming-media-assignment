@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenLevinson/streaming-media-assignment.git"
+  },
+  "author": "Ben Levinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenLevinson/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/BenLevinson/streaming-media-assignment#readme"
+}
